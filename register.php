@@ -15,6 +15,7 @@ echo "<p></p>";
 //display name of the page and some random text
 echo "<h2>".$pagename."</h2><br>";
 
+//create a form
 echo "<fieldset><legend>Register & Create a WorkedUp Account</legend><table border=1><form id='register' action='getregister.php' method='post'
 accept-charset='UTF-8'><br><tr>
 	<td><label for='name'>First Name: </label></td>
