@@ -9,7 +9,7 @@ echo "<link rel=stylesheet type=text/css href=mystylesheet.css>";
 echo "<title>".$pagename."</title>";
 //include head layout 
 include ("headfile.html");
-
+//start the session
 session_start();
 
 echo "<p></p>";
