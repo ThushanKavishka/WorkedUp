@@ -36,9 +36,11 @@ while ($arrayprod=mysql_fetch_array($exeSQL))
 	echo $arrayprod['prodName'];
 	echo "<br>";
 	echo "</a>";
+	//Display the product image
 	echo "<img src=images/".$arrayprod['prodPicName'].">";	
 	echo "<br><br>";
 	echo "<p7>";
+	//display the product description
 	echo $arrayprod['prodDecript'];
 	echo "</p7>";
 	echo "<br><br>";
