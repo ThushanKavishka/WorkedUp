@@ -16,7 +16,7 @@ echo "<p></p>";
 //display name of the page and some random text
 echo "<h2>".$pagename."</h2>";
 
-//unset the value in basket variable in $_SESSION super global array
+//unset the value in 'basket' variable in ''$_SESSION' super global array
 unset($_SESSION['basket']);
 
 $_SESSION['basket'][0] = 0;
