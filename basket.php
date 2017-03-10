@@ -63,8 +63,8 @@ if(isset($_SESSION['basket'])){
 }
 
 echo "<tr>
-          <td colspan='3'>Total</td>
-          <td>$total.00</td>
+          <td colspan='3'>Total: </td>
+          <td>**$total.00**</td>
       </tr>
       </table>";
 
