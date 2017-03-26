@@ -1,0 +1,173 @@
+/*External CSS to format the layout of my web site*/
+
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #F8F8F8; 
+	font-family: verdana, sans serif;
+	border-style: solid;
+    border-color: #9E9EAE;	
+} 
+
+#header
+{
+	background:#FFF;
+	padding: 5px;
+}
+
+#header h1
+{
+	margin: 0;
+	color:	#cc9900;
+	font-size: 90%;
+	text-align: right;
+}
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background:#acacb9;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation  li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid#fff;
+}
+
+#navigation  li a:hover 
+{ 
+	background:#ffdf80; 
+	color: #fff
+}
+
+#navigation  li a:active
+{
+	background:#ffdf80; 
+	text-decoration:none;
+}
+
+#navigation  li a:visited
+{
+	background:#ffdf80; 
+	text-decoration:none;
+}
+
+#content
+{
+	clear: left;
+	padding: 20px;
+}
+
+#content h2
+{
+	color:#cc9900;
+	font-size: 300%;
+	margin: 0 0 .5em;
+	font-family: Algerian;
+}
+
+
+#content h1
+{
+	color:#cc9900;
+	font-size: 200%;
+	margin: 0 0 .5em;
+	font-family: Algerian;	
+}
+
+#content p 
+{
+	font-size: 120%;
+	
+}
+
+
+#content p4
+{
+	color:#336600;
+	font-size: 120%;
+	
+}
+
+#content p5
+{
+	color:#336600;
+	font-size: 120%;
+	
+}
+
+#content p7
+{
+	font-size: 80%;	
+}
+
+#footer
+{
+	background:#9E9EAE;
+	text-align: right;
+	padding: 40px;
+	height: 1%;
+	color: #fff;
+}
+
+a:link 
+{
+	color: #e6ac00;	
+	text-decoration: none; 
+}	
+
+a:active 
+{
+	color: #999966; 
+	text-decoration: none; 
+}
+
+a:visited 
+{
+	color: #999966; 
+	text-decoration: none; 
+}
+
+a:hover 
+{
+	color: #adad85; 
+	text-decoration: none; 
+}
+
+table, th, td
+{
+border-collapse:collapse;
+border: 3px solid #008F6B;
+}
+
+th
+{
+color:#008F6B;
+}
+
+td
+{
+padding:5px;
+text-align:left;
+color:#008F6B;
+}	
+
